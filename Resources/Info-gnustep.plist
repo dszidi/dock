@@ -4,10 +4,8 @@
 <dict>
     <key>NSExecutable</key>
     <string>Dock</string>
-    <key>NSMainNibFile</key>
-    <string>Dock</string>
     <key>NSPrincipalClass</key>
-    <string>DockAppController</string>
+    <string>NSApplication</string>
 </dict>
 </plist>
 

@@ -15,7 +15,7 @@
     // Create a dock window without a title bar or standard window buttons
     NSRect frame = NSMakeRect(0, 0, 400, 100);  // Set size and position of the dock
     self.dockWindow = [[NSWindow alloc] initWithContentRect:frame
-                                                  styleMask:(NSWindowStyleMaskTitled | NSWindowStyleMaskClosable)
+                                                  styleMask:NSWindowStyleMaskBorderless
                                                     backing:NSBackingStoreBuffered
                                                       defer:NO];
     [self.dockWindow setTitle:@"Dock"];
